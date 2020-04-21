@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  body{
+      font-family:monospace;
+      background-color: rgb(139, 223, 195);
+      font-size:2em;
+      display:flex;
+      flex-direction: column;
+      background-image: url("graffiti opacity more.png");
+      background-size: cover;
+     
+  
+  
+  
+  
+  }
+  h1{
+      text-align: center;
+      margin:30px;
+      font-size:2em;
+  
+  }
+  .howto{
+      display:flex;
+      justify-content: flex-end;
+      margin:0 10px;
+  }
+  a{
+      color:black
+  
+  }
+  
+  a:hover{
+      color:black
+  }
+  
+  .container{
+     max-width: 600px;
+     background-color: rgb(139, 223, 195);
+      border:2px solid;
+      margin:auto;
+      margin-top:20px;
+      display:flex;
+      /* flex-wrap: nowrap; */
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      border-radius: 25px;
+      padding:20px;
+  
+  }
+  
+
+  
+  button{
+      background-color: rgb(182, 243, 223);
+      padding:20px 40px;
+      margin:40px ;
+      align-self: center;
+      border-radius: 25px;
+      box-shadow: 10px 10px;
+      border:1px solid;
+  
+  }
+  
+  button:hover{
+      box-shadow: 5px 5px;
+      transform:scale(0.9)
+  
+  }
+  
+  @media only screen and (max-width: 500px) {
+      .container{
+      width:90%;
+  }
+  
+  button{
+    margin:10px ;
+   
+  }
+  
+  }
